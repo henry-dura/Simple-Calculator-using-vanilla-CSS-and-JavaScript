@@ -1,22 +1,17 @@
 function add(firstNumber,secondNumber ){
-    console.log(Number(firstNumber) + Number(secondNumber));
     answer.innerText = `${Number(firstNumber) + Number(secondNumber)}`;
-    return firstNumber + secondNumber;
 }
 
 function subtract(firstNumber,secondNumber){
     answer.innerText = `${Number(firstNumber) - Number(secondNumber)}`;
-    return firstNumber - secondNumber;
 }
 
 function multiply(firstNumber,secondNumber){
     answer.innerText = `${Number(firstNumber) * Number(secondNumber)}`;
-    return firstNumber * secondNumber;
 }
 
 function divide(firstNumber,secondNumber){
     answer.innerText = `${Number(firstNumber) / Number(secondNumber)}`;
-    return firstNumber / secondNumber;
 }
 
 function clear(){
@@ -102,9 +97,7 @@ for(let pressed of functionButton){
            return  operate(operation,splitted[0],splitted[1]);
         };
 
-       question.append(pressed.innerText);  
-
-    
+       question.append(pressed.innerText); 
        
     })
 }

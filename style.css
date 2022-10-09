@@ -7,11 +7,12 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
    
 }
 
 .container{
-    margin-top: 100px;
     width:330px;
     padding: 12px;
     background-color: rgba(92, 84, 84, 0.267);
@@ -49,6 +50,15 @@ body{
     margin: 5px;
     font-size: 2rem;
     border-radius: 10px;  
+
+}
+
+#decimal-btn{
+   width: 30%;
+   position: relative;
+   bottom: 10px;
+   left: 35%;
+   font-weight: 900;   
 }
 
 .btn,.btn.ftn.percent{
